@@ -1,0 +1,14 @@
+{
+  "name": "testcafe-starter",
+  "version": "7.4.1",
+  "description": "starter project for e2e tests with testcafe",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe selenium:chrome smoke.test.js"
+  },
+  "dependencies": {
+    "testcafe": "1.17.1",
+    "testcafe-browser-provider-selenium": "1.2.0",
+    "testcafe-reporter-allure": "1.0.5"
+  }
+}
