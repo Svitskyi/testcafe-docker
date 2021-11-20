@@ -24,6 +24,7 @@
 				<configuration>
 					<repository>testcafe-example</repository>
 					<tag>${project.version}</tag>
+					<tag>latest</tag>
 				</configuration>
 			</plugin>
 
